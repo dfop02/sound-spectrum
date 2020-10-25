@@ -1,0 +1,45 @@
+html, body {
+  height: 96%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+audio {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: calc(100% - 20px);
+}
+
+audio.playing {
+  position: fixed;
+  left: calc(40%);
+  top: 10px;
+  bottom: 0;
+  width: 20%;
+}
+
+#file {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+#canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
